@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coversor de Unidades</title>
+    <link rel="stylesheet" href="styleConverU.css">
+</head>
+<body>
+    <section>
+        <h1>Conversor de Unidades</h1>
+        <div>
+            <label>Digite a quantidade:</label><br>
+            <input type="number" id="num"><br>
+            <label>De:</label><br>
+            <select  id="seltab" name="seletor"><br>
+                <option value="Kilometros">Kilômetros</option>
+                <option value="Metros">Metros</option>
+                <option value="Centimetros" >Centímetros</option>
+                <option value="Milimetros" >Milimetros</option>
+            </select><br>
+            <label>Para</label><br>
+            <select  id="seltab2" name="seletor">
+                <option value="Kilometros" >Kilômetros</option>
+                <option value="Metros" >Metros</option>
+                <option value="Centimetros">Centímetros</option>
+                <option value="Milimetros" >Milimetros</option>
+            </select>
+            <button  id='botao' type="button" onclick="conversor()">Converter</button>
+        </div>
+        <div id="res">
+            Aguardando os dados serem preenchidos . . .
+
+        </div>
+    </section>
+    <script src="scriptConverU.js">
+        
+    </script>
+    
+</body>
+</html>

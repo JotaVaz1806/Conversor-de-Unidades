@@ -1,0 +1,41 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(148, 148, 255);
+}
+section{
+    margin: auto;
+    background-color: white;
+    width: 450px;
+    justify-content: center;
+    padding: 20px;
+    border-radius:20px;
+    margin-top: 50px;
+    
+}
+h1{
+    text-align: center;
+}
+input{
+    width: 90%;
+    height: 40px;
+    background-color: rgb(225, 225, 225);
+    margin: 15px;
+    border:none;
+    
+}
+select{
+    width: 90%;
+    height: 40px;
+    background-color: rgb(225, 225, 225);
+    border:none;
+    margin: 15px;
+}
+#botao{
+    background-color: rgb(60, 193, 60);
+    border:none;
+    color: white;
+    padding: 15px;
+    margin: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
